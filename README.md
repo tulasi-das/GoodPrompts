@@ -1,71 +1,59 @@
-# Tulasidas README
+# GitHub Chat Prompt Refiner
 
-This is the README for your extension "Tulasidas". After writing up a brief description, we recommend including the following sections.
+A VS Code extension that helps you write better prompts for GitHub Copilot Chat by providing suggestions and improvements for your prompts.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Analyze and refine your GitHub Chat prompts
+- Get instant feedback on prompt quality
+- Receive specific suggestions for improvement
+- View both original and refined prompts side by side
 
-For example if there is an image subfolder under your extension project workspace:
+The extension helps you improve your prompts by checking for:
+- Specificity of requirements
+- Context completeness
+- Level of detail
+- Usage of examples
 
-\!\[feature X\]\(images/feature-x.png\)
+## How to Use
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+1. Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
+2. Type "Refine GitHub Chat Prompt" and select the command
+3. Enter your prompt in the input box
+4. View the analysis and suggestions in the webview panel
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code version 1.105.0 or higher
+- Access to GitHub Copilot Chat (for using the refined prompts)
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+1. Open VS Code
+2. Go to the Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
+3. Search for "GitHub Chat Prompt Refiner"
+4. Click Install
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+This extension is open source. Feel free to contribute by:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+MIT
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release:
+- Basic prompt analysis
+- Suggestion generation
+- Webview display of results
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy writing better prompts!**
